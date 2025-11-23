@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+harry_potter:
+  title: Harry Potter and the Philosopher's Stone
+  isbn: 978-0747532699
+  published_at: 1997-06-26
+  author: jk_rowling
+
+book_1984:
+  title: 1984
+  isbn: 978-0451524935
+  published_at: 1949-06-08
+  author: george_orwell
+
+pride_and_prejudice:
+  title: Pride and Prejudice
+  isbn: 978-0141439518
+  published_at: 1813-01-28
+  author: jane_austen

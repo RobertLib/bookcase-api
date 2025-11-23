@@ -33,7 +33,7 @@ gem "thruster", require: false
 gem "image_processing", "~> 1.2"
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin Ajax possible
-# gem "rack-cors"
+gem "rack-cors"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -48,3 +48,17 @@ group :development, :test do
   # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
   gem "rubocop-rails-omakase", require: false
 end
+
+gem "graphql", "~> 2.5"
+
+gem "rodauth-rails", "~> 2.1"
+# Enables Sequel to use Active Record's database connection
+gem "sequel-activerecord_connection", "~> 2.0", require: false
+# Used by Rodauth for password hashing
+gem "bcrypt", "~> 3.1", require: false
+# Used by Rodauth for JWT support
+gem "jwt", "~> 2.9", require: false
+# Used by Rodauth for rendering built-in view and email templates
+gem "tilt", "~> 2.4", require: false
+
+gem "action_policy-graphql", "~> 0.6.0"

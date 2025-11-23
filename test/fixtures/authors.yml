@@ -1,0 +1,16 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+jk_rowling:
+  name: J.K. Rowling
+  biography: British author, best known for the Harry Potter series
+  born_at: 1965-07-31
+
+george_orwell:
+  name: George Orwell
+  biography: English novelist and essayist, journalist and critic
+  born_at: 1903-06-25
+
+jane_austen:
+  name: Jane Austen
+  biography: English novelist known for her romantic fiction
+  born_at: 1775-12-16

@@ -11,5 +11,9 @@ module ActiveSupport
     fixtures :all
 
     # Add more helper methods to be used by all tests here...
+    def execute_graphql(query_string, variables: {}, context: {})
+      default_context = { current_user: users(:one) }
+      BookcaseApiSchema.execute(query_string, variables: variables, context: default_context.merge(context))
+    end
   end
 end
